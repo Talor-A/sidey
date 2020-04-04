@@ -24,9 +24,12 @@ layout: default
     {% if page.expand %}
     {% for item in notes %}
     {% unless item.path contains "index.html" %}
-    <div class="pb4 pr2-l">
+    <div class="expanded-note">
+      <a href="{{item.url}}"># {{item.path | replace: folderfilter , ""}}</a></li>
       <hr>
-      <a class="link gray f5" href="{{item.url}}"># {{item.path | replace: folderfilter , ""}}</a></li>
+      {% if item.title %}
+    <h2>{{item.title}}</h2>
+{% endif %}
       {{item.content | markdownify}}    
     </div>
     {% endunless %}

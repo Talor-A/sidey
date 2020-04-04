@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include wikiheader.html %}
+{%- comment -%} {% include wikiheader.html %} {%- endcomment -%}
 
 {% include wikibreadcrumb.html %}
 
@@ -11,7 +11,3 @@ layout: default
 {% endif %}
 
 {{content}}
-
-</div>
-
-{% include wikifooter.html %}

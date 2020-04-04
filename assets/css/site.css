@@ -1,8 +1,17 @@
-
+html {
+  color: #222;
+  background-color: #eee;
+}
 
 html.dark {
 		background-color: #222;
 		color: #eee;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a, a:visited, a:hover {
@@ -12,6 +21,10 @@ a, a:visited, a:hover {
 /*
 src: https://codepen.io/lemmin/pen/KaLmVa
 */
+img + em {
+  font-size: .8em;
+  opacity: 0.8;
+}
 img {
   width:100%;
 }
@@ -22,4 +35,13 @@ img.zoomable {
 }
 img.zoomable.zoomed {
 	cursor: zoom-out;
+}
+
+.expanded-note {
+	box-sizing: border-box;
+  border: 1px solid currentColor;
+  padding: 1em 2em;
+}
+.expanded-note > hr {
+  margin: 1em -2em 1em -2em;
 }

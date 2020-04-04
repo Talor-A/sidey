@@ -55,6 +55,6 @@ defaults:
       defaults:
   - 
     scope:
-      path: "/notes/*"
+      path: "notes/*"
     values:
       layout: "wiki"
