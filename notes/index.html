@@ -2,7 +2,10 @@
 layout: page
 title: notes
 ---
-<p>This is my personal digital garden. A wild garden, loosely tended. There's drafts, ideas, partials, fragments and ideas.</p>
+<p>
+  This is my personal digital garden. A wild garden, loosely tended. There's drafts, ideas, partials, fragments and ideas.
+  <img src="../assets/img/plant-growth-success-1.png" style="width: 40%; margin: 10px">
+</p>
 
 {% assign folders = site.pages | where_exp:"item", "item.path contains 'notes'" %}
 {% assign wikifolders = "" | split:"" %}
