@@ -1,0 +1,10 @@
+
+
+html.dark {
+		background-color: #222;
+		color: #eee;
+}
+
+a, a:visited, a:hover {
+  color: cornflowerblue;
+}
