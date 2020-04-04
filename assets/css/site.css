@@ -1,0 +1,25 @@
+
+
+html.dark {
+		background-color: #222;
+		color: #eee;
+}
+
+a, a:visited, a:hover {
+  color: cornflowerblue;
+}
+
+/*
+src: https://codepen.io/lemmin/pen/KaLmVa
+*/
+img {
+  width:100%;
+}
+img.zoomable {
+  cursor: zoom-in;
+  transition:all .3s;
+  transform-origin: top left;
+}
+img.zoomable.zoomed {
+	cursor: zoom-out;
+}

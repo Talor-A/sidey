@@ -16,6 +16,9 @@ layout: default
     
     {% assign snippets = site.static_files | where_exp: "item" , "item.path contains folderfilter" %}
     
+    {% assign pics = snippets | where_exp: "item" , "item.extname == '.jpg' or item.extname == '.png'" %}
+    {% assign snippets = snippets | where_exp: "item" , "item.extname != '.jpg' and item.extname != '.png'"  %}
+    
     <h3>Notes:</h3>
     
     {% if page.expand %}
@@ -37,6 +40,16 @@ layout: default
       {% endfor %}
     </ul>
     {% endif %}
+
+    <h3>Images:</h3>
+    <section  style="column-count: 3;">
+      {% for item in pics %}
+      
+      <div style="max-width: 200px;">
+        <img src="{{item.path}}" class="zoomable"/>
+      </div>
+      {% endfor %}
+    </section>
     
     <h3>Snippets:</h3>
     {% for item in snippets %}
