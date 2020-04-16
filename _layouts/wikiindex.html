@@ -4,56 +4,61 @@ layout: default
 <div>
 
   {% assign folderfilter = page.path | replace: "/index.html" , "" %}
-  
+  {% assign folderfilter = folderfilter| replace: "/index.md" , "" %}
+
   {% assign path = page.path | split:"/" %}
-  
+
   {% include wikibreadcrumb.html %}
-  
-  <p>{{content}}</p>
-  
+  <h1>{{page.title}}</h1>
+  {{content}}
+
   <div class="fl w-60-l w-100 min-h5">
     {% assign notes = site.pages | where_exp: "item" , "item.path contains folderfilter" | sort:"pinned" | reverse %}
-    
+
     {% assign snippets = site.static_files | where_exp: "item" , "item.path contains folderfilter" %}
-    
+
     {% assign pics = snippets | where_exp: "item" , "item.extname == '.jpg' or item.extname == '.png'" %}
     {% assign snippets = snippets | where_exp: "item" , "item.extname != '.jpg' and item.extname != '.png'"  %}
-    
+
+    {% if notes.size > 0 %}
     <h3>Notes:</h3>
-    
+
     {% if page.expand %}
     {% for item in notes %}
-    {% unless item.path contains "index.html" %}
+    {% unless item.path contains "index.md" or item.path contains "index.html" %}
+
     <div class="expanded-note">
       <a href="{{item.url}}"># {{item.path | replace: folderfilter , ""}}</a></li>
       <hr>
       {% if item.title %}
-    <h2>{{item.title}}</h2>
-{% endif %}
-      {{item.content | markdownify}}    
+      <h2>{{item.title}}</h2>
+      {% endif %}
+      {{item.content | markdownify}}
     </div>
     {% endunless %}
     {% endfor %}
     {% else %}
     <ul>
       {% for item in notes %}
-      {% unless item.path contains "index.html" %}
-      <li class="pv1">{%if item.pinned %}📌{% endif %} <a href="{{item.url}}">{{item.path | replace: folderfilter , ""}}</a></li>
+      {% unless item.path contains "index.html" or item.path contains "index.md" %}
+      <li class="pv1">{%if item.pinned %}📌{% endif %} <a
+          href="{{item.url}}">{{item.path | replace: folderfilter , ""}}</a></li>
       {% endunless %}
       {% endfor %}
     </ul>
     {% endif %}
+    {% endif %}
 
     <h3>Images:</h3>
-    <section  style="column-count: 3;">
+    <section style="column-count: 3;">
       {% for item in pics %}
-      
+
       <div style="max-width: 200px;">
-        <img src="{{item.path}}" class="zoomable"/>
+        <img src="{{item.path}}" class="zoomable" />
       </div>
       {% endfor %}
     </section>
-    
+
     <h3>Snippets:</h3>
     {% for item in snippets %}
     <div class="fl w-50-l w-100 pa2">
@@ -66,8 +71,8 @@ layout: default
       </a>
     </div>
     {% endfor %}
-    
+
   </div>
-  
+
 </div>
 </div>
