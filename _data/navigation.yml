@@ -1,14 +1,14 @@
 links:
 - title: /home
   url: /
+- title: /about
+  url: /about
 - title: /reading
   url: /reading/
 - title: /work
   url: /work
-- title: /notes
-  url: /notes/
-- title: /about
-  url: /about
+# - title: /notes
+#   url: /notes/
 # - title: Search
 #   url: /search
 # - title: Rss
