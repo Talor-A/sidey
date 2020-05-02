@@ -3,12 +3,17 @@ title: Notes To Self
 layout: page
 permalink: notes/index.html
 ---
-
+<p>
+  these are notes to me. I journal a few pages every morning (or at least I try). The interesting bits I'll post here.
+</p>
 <section class="posts">
-<ul>
 {% for post in site.notes %}
-<li><a href="{{ site.baseurl }}{{ post.url }}">title: {{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+<strong>
+  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+</strong>
+<p>
+  {{post.content}}
+</p>
 {% endfor %}
-</ul>
 </section>
 
