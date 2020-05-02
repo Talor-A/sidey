@@ -7,7 +7,7 @@ title: notes
   <img src="../assets/img/plant-growth-success-1.png" style="width: 40%; margin: 10px">
 </p>
 
-{% assign folders = site.pages | where_exp:"item", "item.path contains 'notes'" %}
+{% assign folders = site.pages | where_exp:"item", "item.path contains 'wiki'" %}
 {% assign wikifolders = "" | split:"" %}
 
 {% for folder in folders %}
@@ -19,7 +19,7 @@ title: notes
 
 {% for folder in wikifolders %}
   {% unless folder contains 'md' or folder contains 'html' %}
-      <a href="/notes/{{folder}}/">
+      <a href="/wiki/{{folder}}/">
           <h3>
             {{folder | capitalize}}
           </h3>
@@ -29,7 +29,7 @@ title: notes
 
 <h3>All notes</h3>
 
-{% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'notes'" | sort:"path" %}
+{% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'wiki'" | sort:"path" %}
 {% for item in folder1 %}
   <pre><a href="{{ item.url }}">{{item.path}}</a></pre>
 {% endfor %}

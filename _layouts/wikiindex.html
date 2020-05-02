@@ -19,7 +19,7 @@ layout: default
     {% assign pics = snippets | where_exp: "item" , "item.extname == '.jpg' or item.extname == '.png'" %}
     {% assign snippets = snippets | where_exp: "item" , "item.extname != '.jpg' and item.extname != '.png'"  %}
     
-    <h3>Notes:</h3>
+    <h3>Pages:</h3>
     
     {% if page.expand %}
     {% for item in notes %}

@@ -1,12 +1,12 @@
 ---
-title: Journal
+title: Notes To Self
 layout: page
-permalink: journal/index.html
+permalink: notes/index.html
 ---
 
 <section class="posts">
 <ul>
-{% for post in site.journal %}
+{% for post in site.notes %}
 <li><a href="{{ site.baseurl }}{{ post.url }}">title: {{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
 {% endfor %}
 </ul>

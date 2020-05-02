@@ -36,7 +36,7 @@ plugins:
   - jekyll-sitemap  
 
 collections:
-  journal:
+  notes:
     output: true
     permalink: /:year-:month-:day:output_ext
   
@@ -55,6 +55,6 @@ defaults:
       defaults:
   - 
     scope:
-      path: "notes/*"
+      path: "wiki/*"
     values:
       layout: "wiki"
