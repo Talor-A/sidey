@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 html {
   color: #222;
   background-color: #eee;
@@ -19,12 +23,6 @@ a, a:visited, a:hover {
   color: cornflowerblue;
 }
 
-.home {
-  height: 78vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .home-blurb {
   text-align: center;
   /* font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
@@ -73,4 +71,12 @@ footer li, nav li {
   list-style: none;
   margin: 0em .5em;
   margin-bottom: .25em;
+}
+header a, footer a {
+  color: currentColor;
+  opacity: 0.7;
+}
+header a:visited, footer a:visited {
+  opacity: 0.7;
+  color: currentColor;
 }

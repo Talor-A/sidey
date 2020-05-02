@@ -1,29 +1,59 @@
 ---
 layout: default
 ---
-
+<style>
+  nav {
+    margin: 0;
+    padding: 1em;
+  }
+  body {
+    background-color: #FFFFFF80;
+    margin: 0px;
+    height: 100vh;
+  }
+  .dark body {
+    background-color: #000000A0;
+    margin: 0px;
+    height: 100vh;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 1.2rem;
+    box-sizing: border-box;
+  }
+</style>
 <section class="home">
   <div class='home-blurb'>
     {{ content }}
   </div>
-      
+
   {% if page.date %}
-  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
+  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    &middot; {% for tag in page.tags %}
     <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
   {% endif %}
 
-  
+
   <!--<span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
       <a class="post" href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
   -->
 </section>
+<div class="content content--canvas">
+</div>
 
 <footer>
   <ul>
     {% for item in site.data.social.links %}
-       <li><a href="{{ item.url }}"class="nav-link {% if item.url == page.url %} active{% endif %}">{{ item.title }}</a></li>
+    <li><a href="{{ item.url }}" class="nav-link {% if item.url == page.url %} active{% endif %}">{{ item.title }}</a>
+    </li>
     {% endfor %}
- </ul>
+  </ul>
 </footer>
 
 
+<script src="/assets/js/noise.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/shift.js"></script>

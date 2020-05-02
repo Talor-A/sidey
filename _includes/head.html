@@ -1,9 +1,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   {% seo title=false %}
-
   <title>
       {% if page.tag or page.title %}
         {% if page.tag %}
@@ -21,7 +19,6 @@
         - {{ site.description | escape }}
       {% endunless %}
     </title>
-  
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
   <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
@@ -37,5 +34,4 @@
     {{ include_to_scssify | scssify }}
   </style> 
   {%- endcomment -%}
-
 </head>
