@@ -53,7 +53,17 @@ layout: default
   </ul>
 </footer>
 
-
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 <script src="/assets/js/noise.min.js"></script>
 <script src="/assets/js/util.js"></script>
 <script src="/assets/js/shift.js"></script>
