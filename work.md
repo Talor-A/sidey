@@ -9,14 +9,16 @@ layout: page
 
 ## Experience
 
-**Adventures Attendant , Associated Students, Inc.** 2018-Present
+**Adventures Attendant , Associated Students, Inc.**
+- Here I learned a great deal about rock walls, the great outdoors, and myself.
 
-**Laser Software R&D Intern, Amada Miyachi America, Inc.** June 2018 - August 2018 (5 week internship)
-
-**Laser Software R&D Intern, Amada Miyachi America, Inc.** December 2018 - January 2019 (5 week internship)
+**Laser Software R&D Intern, Amada Miyachi America, Inc.**
+- Discovered applications of machine learning for laser welding machines.
+- Also discovered I don't like working in a room with no windows all day.
 
 **Web Development, taloranderson.com**
-
+- helped a few businesses out with web design & development.
+  
 ## Education
 
 **Cal Poly Pomona Computer Science, B.S.** (Graduation May 2020)
