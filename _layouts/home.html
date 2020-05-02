@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section class="home">
+  <div class='home-blurb'>
+    {{ content }}
+  </div>
+      
+  {% if page.date %}
+  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
+    <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+  {% endif %}
+
+  
+  <!--<span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
+      <a class="post" href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+  -->
+</section>
+
+<footer>
+  <ul>
+    {% for item in site.data.social.links %}
+       <li><a href="{{ item.url }}"class="nav-link {% if item.url == page.url %} active{% endif %}">{{ item.title }}</a></li>
+    {% endfor %}
+ </ul>
+</footer>
+
+
