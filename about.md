@@ -18,6 +18,8 @@ I love climbing and walking my [dog 🐕](https://instagram.com/thatsabiglab){:t
 * [twitter](https://twitter.com/talor_a){:target="_blank"}
 * [instagram](https://instagram.com/talor_a){:target="_blank"}
 
+**I'm listening to**
+<iframe src="https://open.spotify.com/embed/playlist/7FDHVJo4ncDwM8r0NS3tcP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 **I'm inspired by:**
 
 * making the web [smaller](https://runyourown.social/#how-to-run-a-small-social-network-site-for-your-friends){:target="_blank"}, [slower](https://jackcheng.com/the-slow-web/){:target="_blank"}, more [friendly](https://www.robinsloan.com/notes/home-cooked-app/){:target="_blank"}, and more [human](https://medium.com/@the_i_i/were-a-niche-we-just-didn-t-know-9561f662e127){:target="_blank"}.
