@@ -11,5 +11,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}"
     identifier_field: body
     fields:
-      - { label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Date"
+        name: "date"
+        widget: "date"
+        format: "YYYY-MM-DD"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
