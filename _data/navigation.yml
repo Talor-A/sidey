@@ -3,12 +3,12 @@ links:
   url: /
 - title: /about
   url: /about
-- title: /reading
-  url: /reading/
-- title: /work
-  url: /work
 - title: /notes
   url: /notes/
+# - title: /reading
+#   url: /reading/
+- title: /work
+  url: /work
 # - title: Search
 #   url: /search
 # - title: Rss
