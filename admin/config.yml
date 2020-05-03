@@ -9,7 +9,7 @@ collections:
     folder: "_notes"
     create: true
     slug: "{{year}}-{{month}}-{{day}}"
-    identifier_field: body
+    identifier_field: date
     fields:
       - label: "Date"
         name: "date"
