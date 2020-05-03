@@ -6,14 +6,13 @@ permalink: notes/index.html
 <p>
   these are notes to me. I journal a few pages every morning (or at least I try). The interesting bits I'll post here.
 </p>
-<section class="posts">
-{% for post in site.notes %}
+{% for post in site.notes reversed  %}
 <strong>
   <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
 </strong>
 <p>
   {{post.content}}
 </p>
+<hr/>
 {% endfor %}
-</section>
 
