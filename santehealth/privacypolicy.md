@@ -1,6 +1,7 @@
 ---
 layout: compress
 ---
+
 **Privacy Policy**
 
 Sante Health built the Sante Health Screening app as a Free app. This SERVICE is provided by Sante Health at no cost and is intended for use as is.

@@ -1,6 +1,7 @@
 ---
 title: The Painted Ladies of San Francisco
 ---
+
 ![Painted Ladies](san_francisco/Screen&#32;Shot&#32;2020-04-04&#32;at&#32;2.46.56&#32;AM.png)
 
 Ask any Californian to name the most iconic parts of the San Francisco Bay, and they might say: the Golden Gate Bridge, Alcatraz Island, Fisherman’s Wharf, or Chinatown. Perhaps lesser known, but just as unique to San Francisco: “that house from Full House”. Known by many names, such as Postcard Row, the Seven Sisters, or the Painted Ladies, this row of beautiful Victorian-style homes right in the heart of San Francisco has been popularized by appearances in Full House, The Brady Bunch, Nightmare on Elm Street, and more. Today, these homes hold deep significance due to their recognizability and long history in the city. s
