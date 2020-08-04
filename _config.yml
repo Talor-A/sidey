@@ -3,7 +3,7 @@ url: https://taloranderson.com
 title: Talor Anderson
 description: Hi! I'm Talor Anderson.
 
-resume_url: 'https://drive.google.com/open?id=18YST_yucGyDjMK506xMjzbOLX2i116HI'
+resume_url: "https://drive.google.com/file/d/1JC8HzqBSUBwOyTXP8tKxZ6fmvsiJ0wTC/view?usp=sharing"
 twitter_username: talor_a
 
 baseurl: ""
@@ -12,40 +12,37 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   notes:
     output: true
     permalink: /:year-:month-:day:output_ext
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       defaults:
-  - 
-    scope:
+  - scope:
       path: "wiki/*"
     values:
       layout: "wiki"

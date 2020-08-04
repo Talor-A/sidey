@@ -5,11 +5,11 @@ layout: post
 ---
 I build exciting things with code.
 
-I'm an incoming New Grad Software Engineer at [Intuit](https://intuit.com){:target="_blank"}.
+I'm ~~an incoming~~ \*officially\* a New Grad Software Engineer at [Intuit](https://intuit.com){:target="_blank"}.
 
-In the past, I was a developer at [Scratch.app](//scratch.app){:target="_blank"} building an educational platform for students, teachers, and universities. Right now, I'm finishing my B.S. in Computer Science at [Cal Poly Pomona](https://www.cpp.edu/sci/computer-science/){:target="_blank"}. My focus has been in software engineering and machine learning.
+In the past, I was a developer at [Scratch.app](//scratch.app){:target="_blank"} building an educational platform for students, teachers, and universities. I hold a B.S. in Computer Science from [Cal Poly Pomona](https://www.cpp.edu/sci/computer-science/){:target="_blank"}, focused in software engineering and machine learning.
 
-I love climbing and walking my [dog 🐕](https://instagram.com/thatsabiglab){:target="_blank"}.
+My work is through the screen of a computer, but my heart belongs to the outdoors. I love climbing and walking my [dog 🐕](https://instagram.com/thatsabiglab){:target="_blank"}.
 
 **Find me here:**
 

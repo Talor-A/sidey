@@ -9,7 +9,7 @@ layout: page
 
 ## Experience
 *Software Engineer, Intuit*
-- Joining after june 2020.
+- building internal tools to make Intuit developers' lives better.
 
 *Adventures Attendant , CPP Campus Rec.*
 - Here I learned a great deal about rock walls, the great outdoors, and myself.
