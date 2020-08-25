@@ -1,9 +1,8 @@
 ---
 title: Past Work
-permalink: /work
+permalink: "/work"
 layout: page
 ---
-
 
 <a class="button" href="{{site.resume_url}}" target="_blank">View my Resume</a>
 

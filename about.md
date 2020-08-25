@@ -1,8 +1,8 @@
 ---
 title: Hi! I'm Talor Anderson.
 layout: post
-
 ---
+
 I build exciting things with code.
 
 I'm ~~an incoming~~ \*officially\* a New Grad Software Engineer at [Intuit](https://intuit.com){:target="_blank"}.

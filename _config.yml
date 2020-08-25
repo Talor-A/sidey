@@ -1,48 +1,50 @@
+---
+title: Talor Anderson
+timezone: UTC
+collections:
+  notes:
+    title: Notes
+    output: true
+    permalink: "/:year-:month-:day:output_ext"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    defaults: 
+- scope:
+    path: wiki/*
+  values:
+    layout: wiki
 site: taloranderson.com
 url: https://taloranderson.com
-title: Talor Anderson
 description: Hi! I'm Talor Anderson.
-
-resume_url: "https://drive.google.com/file/d/1JC8HzqBSUBwOyTXP8tKxZ6fmvsiJ0wTC/view?usp=sharing"
+resume_url: https://drive.google.com/file/d/1JC8HzqBSUBwOyTXP8tKxZ6fmvsiJ0wTC/view?usp=sharing
 twitter_username: talor_a
-
-baseurl: ""
-
+baseurl: ''
 highlighter: none
-
 exclude:
-  - .jekyll-cache
-
+- ".jekyll-cache"
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
-
+  comments:
+  - "<!-- "
+  - " -->"
 sass:
   sass_dir: _sass
   style: :compressed
-
 plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-collections:
-  notes:
-    output: true
-    permalink: /:year-:month-:day:output_ext
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      defaults:
-  - scope:
-      path: "wiki/*"
-    values:
-      layout: "wiki"
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-sitemap

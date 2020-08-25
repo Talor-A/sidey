@@ -1,5 +1,4 @@
 ---
-
 ---
 
 # Reading list: to be updated with notes.
