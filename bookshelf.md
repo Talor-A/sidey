@@ -3,7 +3,7 @@
 
 # Bookshelf
 This is a selection of books I own, inspired by <https://patrickcollison.com/bookshelf>. My favorites are marked with a ✨.
-The below list is generated from my Goodreads account.
+The list is generated from my Goodreads account.
 
 Want to talk books? tweet/DM me at [@{{site.twitter_username}}]({{site.twitter_url}}){:target="_blank"}
 
