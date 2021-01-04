@@ -5,11 +5,7 @@ links:
   url: /about
 - title: /notes
   url: /notes/
-# - title: /reading
-#   url: /reading/
 - title: /work
   url: /work
-# - title: Search
-#   url: /search
-# - title: Rss
-#   url: /atom.xml
+- title: /books
+  url: /bookshelf/

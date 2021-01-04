@@ -1,7 +1,7 @@
 ---
 ---
 # Bookshelf
-This is a selection of books I own, inspired by <https://patrickcollison.com/bookshelf>. My favorites are marked with a star.
+This is a selection of books I own, inspired by <https://patrickcollison.com/bookshelf>. My favorites are marked with a ✨.
 The below list is generated from my Goodreads account.
 
 {% assign sorted-books = site.data.goodreads_library_export | sort: 'Date Added' %}
