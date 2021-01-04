@@ -4,6 +4,8 @@
 This is a selection of books I own, inspired by <https://patrickcollison.com/bookshelf>. My favorites are marked with a ✨.
 The below list is generated from my Goodreads account.
 
+Want to talk books? tweet/DM me at [@{{site.twitter_username}}]({{site.twitter_url}}){:target="_blank"}
+
 {% assign sorted-books = site.data.goodreads_library_export | sort: 'Date Added' %}
 
 {% assign read-books = sorted-books | where: "Exclusive Shelf","read" %}

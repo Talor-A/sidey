@@ -31,7 +31,10 @@ site: taloranderson.com
 url: https://taloranderson.com
 description: Hi! I'm Talor Anderson.
 resume_url: https://drive.google.com/file/d/1JC8HzqBSUBwOyTXP8tKxZ6fmvsiJ0wTC/view?usp=sharing
+linkedin_url: https://linkedin.com/in/taloranderson
+instagram_url: https://instagram.com/talor_a
 twitter_username: talor_a
+twitter_url: https://twitter.com/talor_a
 baseurl: ''
 highlighter: none
 exclude:

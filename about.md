@@ -14,9 +14,9 @@ My work is through the screen of a computer, but my heart belongs to the outdoor
 **Find me here:**
 
 * [github](https://github.com/talor-a){:target="_blank"}
-* [linkedin](https://linkedin.com/in/taloranderson){:target="_blank"}
-* [twitter](https://twitter.com/talor_a){:target="_blank"}
-* [instagram](https://instagram.com/talor_a){:target="_blank"}
+* [linkedin]({{site.linkedin_url}}){:target="_blank"}
+* [twitter]({{site.twitter_url}}){:target="_blank"}
+* [instagram](site.instagram_url){:target="_blank"}
 
 **I'm listening to**
 <iframe src="https://open.spotify.com/embed/playlist/7FDHVJo4ncDwM8r0NS3tcP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
